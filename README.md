@@ -23,3 +23,6 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fgetpancake.com%2Ffa%2Fdevops%2
 https://virgool.io/@mohadesehrastegar87/%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%D9%85%D9%81%D8%A7%D9%87%DB%8C%D9%85-ci-cd-dlu2g5popt5a
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digiwiseacademy.com%2Farticles%2Fdevops-roadmap-2021-how-to-become-devops-engineer%2F&psig=AOvVaw2Q9tNq_PLeYzI44bO8N91Z&ust=1672814512793000&source=images&cd=vfe&ved=2ahUKEwjmjuDn5ar8AhXIZvEDHTOzBlYQjRx6BAgAEAo
+
+sn://ssh?eNpjYGBgMDQx1LM01TMysNQz3_aKm4EhPSOxOPUtIwOUlRv8ohHEaQRiBgAZogu1
+
