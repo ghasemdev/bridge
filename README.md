@@ -27,3 +27,25 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digiwiseacademy.com%2Farti
 sn://ssh?eNpjYGBgMDQx1LM01TMysNQz3_aKm4EhPSOxOPUtIwOUlRv8ohHEaQRiBgAZogu1
 
 ssr://MTYyLjE5LjE4MC4yMjk6MjEzOmF1dGhfc2hhMV92NDpjaGFjaGEyMDpodHRwX3Bvc3Q6WjJoaGMyVnRNVEl6TkE
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 100
+ij_kotlin_imports_layout = *, android.*, androidx.*, com.*, java.*, javax.*, kotlin.*, kotlinx.*, $*
+
+[{*.kt, *.kts, *.java}]
+indent_style = space
+indent_size = 2
+
+# Tab indentation (no size specified)
+[*.md]
+indent_style = tab
+
+# Matches the exact files either package.json or .travis.yml
+[{*.json, *.yml, *.xml, *.gradle, *.toml}]
+indent_style = space
+indent_size = 2
