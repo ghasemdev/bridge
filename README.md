@@ -27,3 +27,22 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digiwiseacademy.com%2Farti
 sn://ssh?eNpjYGBgMDQx1LM01TMysNQz3_aKm4EhPSOxOPUtIwOUlRv8ohHEaQRiBgAZogu1
 
 ssr://MTYyLjE5LjE4MC4yMjk6MjEzOmF1dGhfc2hhMV92NDpjaGFjaGEyMDpodHRwX3Bvc3Q6WjJoaGMyVnRNVEl6TkE
+```
+import dagger.Binds;
+import dagger.Module;
+import dagger.hilt.InstallIn;
+import dagger.hilt.codegen.OriginatingElement;
+import dagger.hilt.components.SingletonComponent;
+import javax.annotation.processing.Generated;
+
+@Generated("com.part.compiler.InstallHiltBindingProcessor")
+@Module
+@InstallIn(SingletonComponent.class)
+@OriginatingElement(
+    topLevelClass = CertificateLocalDataSourceImpl.class
+)
+public interface CertificateLocalDataSourceImpl_HiltBindingModule {
+  @Binds
+  CertificateLocalDataSource bind(CertificateLocalDataSourceImpl impl);
+}
+```
