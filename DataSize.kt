@@ -1,69 +1,67 @@
+package ir.partsoftware.digitalsignsdk.core.kotlin.utils
+
 @JvmInline
 internal value class DataSize(private val size: Long) {
-  val inWholeBits: Long
+  inline val inWholeBits: Long
     get() = size
 
-  val inWholeBytes: Long
-    get() = size / 8
+  inline val inWholeBytes: Long
+    get() = size / 1.bytes
 
-  val inWholeKilobytes: Long
-    get() = size / 8 / KILO
+  inline val inWholeKilobytes: Long
+    get() = size / 1.kilobytes
 
-  val inWholeKibibytes: Long
-    get() = size / 8 / KIBI
+  inline val inWholeMegabytes: Long
+    get() = size / 1.megabytes
 
-  val inWholeMegabytes: Long
-    get() = size / 8 / KILO / KILO
+  inline val inWholeGigabytes: Long
+    get() = size / 1.gigabytes
 
-  val inWholeMebibytes: Long
-    get() = size / 8 / KIBI / KIBI
-
-  val inWholeGigabytes: Long
-    get() = size / 8 / KILO / KILO / KILO
-
-  val inWholeGigibytes: Long
-    get() = size / 8 / KIBI / KIBI / KIBI
-
-  val inWholeTerabytes: Long
-    get() = size / 8 / KILO / KILO / KILO / KILO
-
-  val inWholeTebibytes: Long
-    get() = size / 8 / KIBI / KIBI / KIBI / KIBI
+  inline val inWholeTerabytes: Long
+    get() = size / 1.terabytes
 }
 
-internal inline val Number.bits: DataSize
+internal inline val Int.bits: DataSize
   get() = DataSize(1)
 
-internal inline val Number.bytes: DataSize
-  get() = 1.bits * 8
+internal inline val Int.bytes: DataSize
+  get() = 1.bits * BIT
 
-internal inline val Number.kilobytes: DataSize
+internal inline val Int.kilobytes: DataSize
   get() = 1.bytes * KILO
 
-internal inline val Number.kibibytes: DataSize
-  get() = 1.bytes * KIBI
-
-internal inline val Number.megabytes: DataSize
+internal inline val Int.megabytes: DataSize
   get() = 1.kilobytes * KILO
 
-internal inline val Number.mebibytes: DataSize
-  get() = 1.kibibytes * KIBI
-
-internal inline val Number.gigabytes: DataSize
+internal inline val Int.gigabytes: DataSize
   get() = 1.megabytes * KILO
 
-internal inline val Number.gigibytes: DataSize
-  get() = 1.mebibytes * KIBI
-
-internal inline val Number.terabytes: DataSize
+internal inline val Int.terabytes: DataSize
   get() = 1.gigabytes * KILO
 
-internal inline val Number.tebibytes: DataSize
-  get() = 1.gigibytes * KIBI
+internal inline val Long.bits: DataSize
+  get() = DataSize(1)
+
+internal inline val Long.bytes: DataSize
+  get() = 1.bits * BIT
+
+internal inline val Long.kilobytes: DataSize
+  get() = 1.bytes * KILO
+
+internal inline val Long.megabytes: DataSize
+  get() = 1.kilobytes * KILO
+
+internal inline val Long.gigabytes: DataSize
+  get() = 1.megabytes * KILO
+
+internal inline val Long.terabytes: DataSize
+  get() = 1.gigabytes * KILO
 
 internal operator fun DataSize.times(i: Int): DataSize = DataSize(inWholeBits * i)
 
 internal operator fun DataSize.times(i: Long): DataSize = DataSize(inWholeBits * i)
 
-private const val KILO = 1_000
-private const val KIBI = 1_024
+internal operator fun Long.div(size: DataSize): Long = this / size.inWholeBits
+
+private const val BIT = 8
+private const val KILO = 1_024
