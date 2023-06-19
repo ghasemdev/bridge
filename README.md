@@ -30,4 +30,6 @@ https://www.geeksforgeeks.org/advanced-encryption-standard-aes/
 
 https://medium.com/codex/aes-how-the-most-advanced-encryption-actually-works-b6341c44edb9
 
+https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation
+
 https://github.com/frohoff/jdk8u-dev-jdk/blob/master/src/share/classes/sun/security/jca/JCAUtil.java
