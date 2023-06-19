@@ -24,25 +24,7 @@ https://virgool.io/@mohadesehrastegar87/%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digiwiseacademy.com%2Farticles%2Fdevops-roadmap-2021-how-to-become-devops-engineer%2F&psig=AOvVaw2Q9tNq_PLeYzI44bO8N91Z&ust=1672814512793000&source=images&cd=vfe&ved=2ahUKEwjmjuDn5ar8AhXIZvEDHTOzBlYQjRx6BAgAEAo
 
-sn://ssh?eNpjYGBgMDQx1LM01TMysNQz3_aKm4EhPSOxOPUtIwOUlRv8ohHEaQRiBgAZogu1
+## KeyStore
 
-ssr://MTYyLjE5LjE4MC4yMjk6MjEzOmF1dGhfc2hhMV92NDpjaGFjaGEyMDpodHRwX3Bvc3Q6WjJoaGMyVnRNVEl6TkE
-```
-import dagger.Binds;
-import dagger.Module;
-import dagger.hilt.InstallIn;
-import dagger.hilt.codegen.OriginatingElement;
-import dagger.hilt.components.SingletonComponent;
-import javax.annotation.processing.Generated;
-
-@Generated("com.part.compiler.InstallHiltBindingProcessor")
-@Module
-@InstallIn(SingletonComponent.class)
-@OriginatingElement(
-    topLevelClass = CertificateLocalDataSourceImpl.class
-)
-public interface CertificateLocalDataSourceImpl_HiltBindingModule {
-  @Binds
-  CertificateLocalDataSource bind(CertificateLocalDataSourceImpl impl);
-}
-```
+https://www.geeksforgeeks.org/advanced-encryption-standard-aes/
+https://github.com/frohoff/jdk8u-dev-jdk/blob/master/src/share/classes/sun/security/jca/JCAUtil.java
