@@ -32,4 +32,6 @@ https://medium.com/codex/aes-how-the-most-advanced-encryption-actually-works-b63
 
 https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation
 
+https://proandroiddev.com/android-keystore-what-is-the-difference-between-strongbox-and-hardware-backed-keys-4c276ea78fd0
+
 https://github.com/frohoff/jdk8u-dev-jdk/blob/master/src/share/classes/sun/security/jca/JCAUtil.java
