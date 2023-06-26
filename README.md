@@ -30,6 +30,10 @@ https://www.geeksforgeeks.org/advanced-encryption-standard-aes/
 
 https://medium.com/codex/aes-how-the-most-advanced-encryption-actually-works-b6341c44edb9
 
+https://www.baeldung.com/java-secure-random
+
+https://www.tutorialspoint.com/random-vs-secure-random-numbers-in-java#
+
 https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation
 
 https://en.wikipedia.org/wiki/Padding_(cryptography)
@@ -37,5 +41,25 @@ https://en.wikipedia.org/wiki/Padding_(cryptography)
 http://www.crypto-it.net/eng/theory/padding.html
 
 https://proandroiddev.com/android-keystore-what-is-the-difference-between-strongbox-and-hardware-backed-keys-4c276ea78fd0
+
+https://developer.android.com/topic/security/best-practices#safe-data
+
+https://developer.android.com/topic/security/data
+
+https://developer.android.com/guide/topics/security/cryptography
+
+https://developer.android.com/training/articles/keystore
+
+https://source.android.com/docs/security/features/trusty
+
+https://source.android.com/docs/security/features/keystore
+
+https://developer.android.com/reference/javax/crypto/Cipher
+
+https://developer.android.com/reference/javax/crypto/KeyGenerator
+
+https://developer.android.com/reference/java/security/KeyPairGenerator
+
+https://developer.android.com/training/sign-in/biometric-auth
 
 https://github.com/frohoff/jdk8u-dev-jdk/blob/master/src/share/classes/sun/security/jca/JCAUtil.java
