@@ -24,6 +24,18 @@ https://virgool.io/@mohadesehrastegar87/%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digiwiseacademy.com%2Farticles%2Fdevops-roadmap-2021-how-to-become-devops-engineer%2F&psig=AOvVaw2Q9tNq_PLeYzI44bO8N91Z&ust=1672814512793000&source=images&cd=vfe&ved=2ahUKEwjmjuDn5ar8AhXIZvEDHTOzBlYQjRx6BAgAEAo
 
+https://betterprogramming.pub/server-driven-ui-does-it-solve-everything-for-mobile-apps-4b38397b2e04
+
+https://proandroiddev.com/server-driven-ui-using-jetpack-compose-8fae9889bb2b
+
+https://www.droidcon.com/2023/05/14/network-connectivity-service-using-callbackflow-and-jetpack-compose/
+
+https://medium.com/@bazzairvine/observing-your-network-connection-with-flow-1cdedf31780c
+
+https://markonovakovic.medium.com/android-better-internet-connection-monitoring-with-kotlin-flow-feac139e2a3
+
+https://stackoverflow.com/questions/28386553/check-if-a-vpn-connection-is-active-in-android
+
 ## KeyStore
 
 https://www.geeksforgeeks.org/advanced-encryption-standard-aes/
