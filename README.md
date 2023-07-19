@@ -36,42 +36,4 @@ https://markonovakovic.medium.com/android-better-internet-connection-monitoring-
 
 https://stackoverflow.com/questions/28386553/check-if-a-vpn-connection-is-active-in-android
 
-## KeyStore
-
-https://www.geeksforgeeks.org/advanced-encryption-standard-aes/
-
-https://medium.com/codex/aes-how-the-most-advanced-encryption-actually-works-b6341c44edb9
-
-https://www.baeldung.com/java-secure-random
-
-https://www.tutorialspoint.com/random-vs-secure-random-numbers-in-java#
-
-https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation
-
-https://en.wikipedia.org/wiki/Padding_(cryptography)
-
-http://www.crypto-it.net/eng/theory/padding.html
-
-https://proandroiddev.com/android-keystore-what-is-the-difference-between-strongbox-and-hardware-backed-keys-4c276ea78fd0
-
-https://developer.android.com/topic/security/best-practices#safe-data
-
-https://developer.android.com/topic/security/data
-
-https://developer.android.com/guide/topics/security/cryptography
-
-https://developer.android.com/training/articles/keystore
-
-https://source.android.com/docs/security/features/trusty
-
-https://source.android.com/docs/security/features/keystore
-
-https://developer.android.com/reference/javax/crypto/Cipher
-
-https://developer.android.com/reference/javax/crypto/KeyGenerator
-
-https://developer.android.com/reference/java/security/KeyPairGenerator
-
-https://developer.android.com/training/sign-in/biometric-auth
-
-https://github.com/frohoff/jdk8u-dev-jdk/blob/master/src/share/classes/sun/security/jca/JCAUtil.java
+[https://www.figma.com/file/wQbKQuaEdjGGV7nQpEuLhq/Digital-Sign-SDK?type=design&node-id=520%3A6847&mode=design&t=detpYeQz9BW36tAK-1
