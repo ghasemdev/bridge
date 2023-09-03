@@ -38,8 +38,7 @@ https://stackoverflow.com/questions/28386553/check-if-a-vpn-connection-is-active
 
 [https://www.figma.com/file/wQbKQuaEdjGGV7nQpEuLhq/Digital-Sign-SDK?type=design&node-id=520%3A6847&mode=design&t=detpYeQz9BW36tAK-1
 
----------------------------
-
+---
 
 https://github.com/darvincisec/DetectFrida
 
