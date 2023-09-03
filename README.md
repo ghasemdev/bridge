@@ -37,3 +37,16 @@ https://markonovakovic.medium.com/android-better-internet-connection-monitoring-
 https://stackoverflow.com/questions/28386553/check-if-a-vpn-connection-is-active-in-android
 
 [https://www.figma.com/file/wQbKQuaEdjGGV7nQpEuLhq/Digital-Sign-SDK?type=design&node-id=520%3A6847&mode=design&t=detpYeQz9BW36tAK-1
+
+---------------------------
+
+
+https://github.com/darvincisec/DetectFrida
+
+https://github.com/MichaelRocks/paranoid
+
+https://github.com/adamyaxley/Obfuscate
+
+https://github.com/kanamui/Obfuscator
+
+https://github.com/StringCare/AndroidLibrary/wiki/Implementation
