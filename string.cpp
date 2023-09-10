@@ -4,39 +4,20 @@
 using namespace std;
 using namespace plusaes;
 
-char \u02aa[25] = {-83,107,42,-58,104,-31,86,108,103,65,103,-6,-52,65,-107,-59,49,4,91,37,-124,-47,-4,110,119};
+const string plain_text = "Hello World";
 
-string \u02ab(int var0, int var1_1, int var2_2)
+const unsigned char iv[12] =
 {
-    var2_2 = var2_2 * 4 + 4;
-    int var7_3 = var0 * 3 + 83;
-    int var6_4 = -1;
-    char* var3_5 = \u02aa;
-    int var8_6 = var1_1 * 3 + 13;
-    char var4_7[var8_6];
-    var1_1 = var6_4;
-    int var5_8 = var7_3;
-    var0 = var2_2;
-    bool boolean = true;
-    do
-    {
-        if(!boolean)
-        {
-            var0 = var7_3 + 1;
-            var5_8 = var2_2 + var5_8 + 1;
-        }
-        boolean = false;
-        var4_7[++var1_1] = var5_8;
-        if (var1_1 == var8_6 - 1)
-        {
-            return var4_7;
-        }
-        var2_2 = var5_8;
-        var5_8 = var3_5[var0];
-        var7_3 = var0;
-    }
-    while (true);
-}
+    5, 120, 63, 35,
+    0, 65, 23, 34,
+    73, 85, 160, 0
+};
+
+unsigned char tag[16] =
+{
+    126, 0, 35, 67, 95,21,20, 69,
+    84, 52, 10, 6, 36, 84, 20, 99
+};
 
 int hex_value(unsigned char hex_digit)
 {
@@ -113,26 +94,44 @@ vector<unsigned char> to_vector(string const& str)
     return vector<unsigned char>(str.data(), str.data() + str.length() + 1);
 }
 
+vector<unsigned char> foo(int var_1, int var_2, int var_3)
+{
+    char m_1 = 30 + var_3;
+    char m_2 = m_1;
+    vector<unsigned char> a;
+    a.push_back(36);
+    a.push_back(126);
+    a.push_back(53);
+    char var_2_1 = var_1 * 3 + 5;
+    bool boolean = true;
+    do
+    {
+        if(boolean)
+        {
+            a.push_back((char)m_1);
+            m_1 += var_2_1 - 3;
+        }
+        else
+        {
+            char var_1_1 = 2;
+            m_2 -= var_1_1;
+            a.push_back((char)m_2);
+
+        }
+        boolean != boolean;
+        if(var_2 == a.size())
+        {
+            return a;
+        }
+        var_2_1++;
+    }
+    while (true);
+    return a;
+}
+
 int main()
 {
-    // AES-GCM 128-bit
-
-    const string plain_text = "Hello World!";
-
-    vector<unsigned char> key = key_from_string(&"0123456789012345");
-
-    const unsigned char iv[12] =
-    {
-        0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,
-        0x08, 0x09, 0x0A, 0x0B
-    };
-
-    unsigned char tag[16] =
-    {
-        0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,
-        0x08, 0x09, 0x0A, 0x0B, 0x00, 0x00, 0x00, 0x01
-    };
-
+    vector<unsigned char> key = foo(0, 32, 7);
     cout << "PlainText: " << plain_text << endl << endl;
     cout << "key: " << to_string(key) << endl << endl;
 
@@ -145,8 +144,7 @@ int main()
 
     // Decrypt -----------------------------------------------------------------------------------------------------------------------------
 
-    string cipher_text = hex_to_string("E8 91 70 B4 54 3A B9 C6 CF 92 C8 7E");
-
+    string cipher_text = hex_to_string("13 4E 00 AE 4E DA C5 AB 34 3D 2F");
     decrypt_gcm((unsigned char*)cipher_text.data(), cipher_text.size(), 0, 0, &key[0], key.size(), &iv, &tag);
     cout << "PlainText: " << cipher_text << endl << endl;
 }
