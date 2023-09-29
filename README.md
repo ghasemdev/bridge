@@ -42,10 +42,5 @@ https://stackoverflow.com/questions/28386553/check-if-a-vpn-connection-is-active
 
 https://github.com/darvincisec/DetectFrida
 
-https://github.com/MichaelRocks/paranoid
-
-https://github.com/adamyaxley/Obfuscate
-
-https://github.com/kanamui/Obfuscator
-
-https://github.com/StringCare/AndroidLibrary/wiki/Implementation
+-repackageclasses 'com.parsuomash.affogato.pdfviewer'
+-allowaccessmodification
