@@ -44,3 +44,5 @@ https://github.com/darvincisec/DetectFrida
 
 -repackageclasses 'com.parsuomash.affogato.pdfviewer'
 -allowaccessmodification
+
+ECDSASignatureMessageX962SHA256
